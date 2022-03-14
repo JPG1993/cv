@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'MaSuperPolice';
+    src: url(MaSuperPolice/teen.ttf) format('truetypue'),
+         url(MaSuperPolice/whiterabit.ttf) format('truetype'),
+         url(MaSuperPolice/teenbold.ttf) format('truetype'),
+         url(MaSuperPolice/teenbolditalic.ttf) format('truetype'),
+         url(MaSuperPolice/teenitalic.ttf) format('truetype'),
+         url(MaSuperPolice/teenlight.ttf) format('truetype'),
+         url(MaSuperPolice/teenlightitalic.ttf) format('truetype');
+}
+
+body{
+    background-image: url('code.png');
+}
+
+.pics{
+    border-radius: 50%;
+}
+.header{
+    background-color: rgb(94, 100, 4);
+    color: aliceblue;
+    text-align: center;
+    font-size: medium;
+    font-family: 'MaSuperPolice';
+    opacity: 0.9;
+    border:1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    font-family: 'MaSuperPolice';
+}
+
+.ul, li{
+    list-style-type: none;
+}
+
+.bloc1{
+    width: 280px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: rgb(151, 161, 8);
+    padding: 1rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    transition: height 2s;
+    margin-bottom: 25px;
+        
+
+}
+
+.bloc1:hover{
+    background-color: rgb(24, 17, 90);
+    color: wheat;
+    padding: 1rem;
+    border-radius: .5rem;
+    height: max-content;
+    
+        
+}
+
+.bloc2{
+    width: 280px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: rgb(151, 161, 8);
+    padding: 1rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    transition: height 2s;
+    margin-bottom: 25px;
+}
+
+.bloc2:hover{
+    background-color: rgb(24, 17, 90);
+    color: wheat;
+    padding: 1rem;
+    border-radius: .5rem;
+    height: max-content;
+}
+
+.bloc3{
+    width: 280px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: rgb(151, 161, 8);
+    padding: 1rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    transition: height 2s;
+    margin-bottom: 25px;
+}
+
+.bloc3:hover{
+    background-color: rgb(24, 17, 90);
+    color: wheat;
+    padding: 1rem;
+    border-radius: .5rem;
+    height: 85px;
+}
+
+.bloc4{
+    width: 280px;
+    height: 100px;
+    color: whitesmoke;
+    background-color: rgb(151, 161, 8);
+    padding: 1rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    transition: height 2s;
+}
+
+.bloc4:hover{
+    background-color: rgb(24, 17, 90);
+    color: wheat;
+    padding: 1rem;
+    border-radius: .5rem;
+    height: 190px;
+}
+
+.div-droite{
+    width: 800px;
+    margin-left: 100px;
+}
+
+.formations{
+    width: 560px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: rgb(151, 161, 8);
+    padding: 1rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    transition: height 2s;
+    margin-bottom: 25px;
+}
+
+.formations:hover{
+    background-color: rgb(24, 17, 90);
+    color: wheat;
+    padding: 1rem;
+    border-radius: .5rem;
+    height: 245px;
+}
+
+.competences{
+    width: 280px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: rgb(151, 161, 8);
+    padding: 1rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    transition: height 2s;
+    margin-bottom: 25px;
+}
+
+.competences:hover{
+    background-color: rgb(24, 17, 90);
+    color: wheat;
+    padding: 1rem;
+    border-radius: .5rem;
+    height: 160px;
+}
+
+.experiences{
+    width: 560px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: rgb(151, 161, 8);
+    padding: 1rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    transition: height 2s;
+    margin-bottom: 25px;
+}
+
+.experiences:hover{
+    background-color: rgb(24, 17, 90);
+    color: wheat;
+    padding: 1rem;
+    border-radius: .5rem;
+    height: 1120px;
+}
+
+footer{
+    background-color: rgb(94, 100, 4);
+    color: aliceblue;
+    text-align: center;
+    font-size: medium;
+    font-family: 'MaSuperPolice';
+    opacity: 0.9;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+}
